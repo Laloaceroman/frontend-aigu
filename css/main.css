@@ -2864,7 +2864,7 @@ header.header--static .header__logo.header__logo--white {
     padding: 15px 15px;
     font-size: 14px;
     font-weight: 400;
-    color: #191947;
+    color: #fff;
   }
   header .header__nav ul li a .fa {
     margin-left: 10px;
@@ -3701,6 +3701,10 @@ section.section--content .section__content {
     padding: 40px;
   }
 }
+section.section--content .section__content p {
+  text-align: justify;
+  text-align-last: center;
+}
 section.section--media .section__image {
   padding: 20px;
 }
@@ -3738,8 +3742,10 @@ section.section--tabs .section__content {
   padding: 20px;
 }
 section.section--tabs .section__content ul li {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   opacity: 0.6;
+  -ms-flex-pack: justify;
+      justify-content: justify;
 }
 @font-face {
   font-family: 'swiper-icons';
