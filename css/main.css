@@ -3641,6 +3641,7 @@ section.section--main {
   margin-top: 70px;
 }
 section.section--main #gradient {
+  display: block;
   position: relative;
   overflow: hidden;
   height: 100vh;
