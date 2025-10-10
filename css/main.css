@@ -219,6 +219,7 @@ svg {
   font-family: Arial, sans-serif;
   background-color: #f9f9f9;
   color: #333;
+  margin-top: 20px;
 }
 .product__info-wrapper {
   padding: 40px 20px;
@@ -396,6 +397,92 @@ svg {
   .product__info-wrapper {
     padding: 50px 40px;
   }
+}
+.center.widget-container .sc-hCPjZK {
+  background-color: #f8f9fa; /* Fondo suave */
+  border-radius: 8px; /* Bordes redondeados */
+  box-shadow: none; /* Eliminar sombra */
+  padding: 15px;
+  font-family: 'Roboto', sans-serif; /* Fuente más limpia */
+}
+.center.widget-container .sc-hCPjZK .widget-title {
+  font-size: 22px;
+  font-weight: 600;
+  color: #333; /* Color oscuro para el texto */
+  margin-bottom: 10px;
+  text-align: center;
+}
+.center.widget-container .sc-hCPjZK .date-picker-container {
+  text-align: center;
+}
+.center.widget-container .sc-hCPjZK .rdp {
+  border: none; /* Eliminar bordes */
+  font-size: 14px;
+}
+.center.widget-container .sc-hCPjZK .rdp-caption_label {
+  font-size: 20px;
+  font-weight: 600;
+  color: #007bff; /* Color de texto para el mes */
+}
+.center.widget-container .sc-hCPjZK .rdp-nav button {
+  background-color: transparent; /* Fondo transparente */
+  border: none; /* Sin bordes */
+  color: #007bff; /* Color de los botones de navegación */
+  font-size: 16px;
+}
+.center.widget-container .sc-hCPjZK .rdp-nav button:focus {
+  outline: none; /* Eliminar el borde al enfocar */
+}
+.center.widget-container .sc-hCPjZK .rdp-cell {
+  width: 40px; /* Tamaño de cada celda */
+  height: 40px; /* Tamaño de cada celda */
+  margin: 5px;
+}
+.center.widget-container .sc-hCPjZK .rdp-day {
+  background-color: #fff; /* Fondo blanco para los días */
+  color: #333; /* Color de texto de los días */
+  border: 1px solid #ddd; /* Borde sutil */
+  border-radius: 5px; /* Bordes redondeados */
+  padding: 8px;
+  cursor: pointer;
+}
+.center.widget-container .sc-hCPjZK .rdp-day:hover {
+  background-color: #007bff; /* Color al pasar el mouse */
+  color: #fff; /* Color de texto al pasar el mouse */
+}
+.center.widget-container .sc-hCPjZK .rdp-day_today {
+  background-color: #28a745; /* Fondo verde para el día actual */
+  color: #fff;
+}
+.center.widget-container .sc-hCPjZK .rdp-day_disabled {
+  background-color: #f8f9fa; /* Fondo gris claro para días deshabilitados */
+  color: #ccc; /* Color gris para días deshabilitados */
+  cursor: not-allowed; /* No interactuar con estos días */
+}
+.center.widget-container .sc-hCPjZK .price-container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: end;
+      justify-content: flex-end;
+  margin-top: 15px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+}
+.center.widget-container .sc-hCPjZK button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 15px;
+}
+.center.widget-container .sc-hCPjZK button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
 }
 .col-xs-1,
 .col-sm-1,
