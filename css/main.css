@@ -492,6 +492,11 @@ svg {
   height: 70px;
   line-height: 70px;
   z-index: 55;
+  background-color: #fff;
+}
+.utility-bar .utility-bar__grid {
+  width: 100%;
+  height: 70px;
 }
 .utility-bar .announcement-bar .announcement-bar__message {
   margin-bottom: 0;
